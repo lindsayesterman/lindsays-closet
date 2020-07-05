@@ -1,14 +1,14 @@
-filterSelection("all")
+
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("item");
   if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
+
 
 function w3AddClass(element, name) {
   var i, arr1, arr2;
@@ -42,3 +42,10 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+
+filterSelection("all");
+
+
+
+

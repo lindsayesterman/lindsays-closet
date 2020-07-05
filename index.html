@@ -9,6 +9,7 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="icon" type="image/png" href="https://i.dlpng.com/static/png/1674503_preview_preview.png">
  <link href="style.css" rel="stylesheet" type="text/css"/>
 
 </head>
@@ -17,6 +18,7 @@
 
 
   <div id="nav-bar">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
     <button class="btn" onclick="filterSelection('TOPS')">TOPS</button>
     <button class="btn" onclick="filterSelection('JACKETS/SWEATSHIRTS')">JACKETS/SWEATSHIRTS</button>
     <button class="btn" onclick="filterSelection('JEANS')">JEANS</button>
@@ -28,13 +30,15 @@
     <img class="icon" src="https://image.flaticon.com/icons/svg/25/25619.svg">
   </div>
 
+
   <div class="closet">
     <img src="img/esma-closet.png">
-    <img src="img/dog.png" width="540px" height="540px">
+    <img src="img/dog.png">
     <h1>LINDSAY'S CLOSET</h1>
   </div>
 
-  <h3>New Arrivals</h3>
+
+  <h3>All Clothing</h3>
   <div class="flex-container">
     <img class="item TOPS" src="img/bandtee.png">
     <img class="item DRESSES/ROMPERS" src="img/blackdress.png">
@@ -51,13 +55,22 @@
     <img class="item BOTTOMS/SHORTS" src="img/lfshorts.png">
     <img class="item TOPS" src="img/beatlestop.png">
     <img class="item TOPS" src="img/tiedye.png">
+    <img class="item TOPS" src="img/blueboy.png">
+    <img class="item TOPS" src="img/pinktunic.png">
+    <img class="item TOPS" src="img/blueck.png">
+    <img class="item TOPS" src="img/pinktank.png">
+    <img class="item TOPS" src="img/arblouse.png">
+    <img class="item BOTTOMS/SHORTS" src="img/brandypants.png">
+    <img class="item JACKETS/SWEATSHIRTS" src="img/grayalien.png">
+    <img class="item DRESSES/ROMPERS" src="img/blackjuicy.png">
+
   </div>
 
 
 
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="script.js"></script>
 
 </body>

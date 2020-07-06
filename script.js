@@ -34,7 +34,7 @@ function w3RemoveClass(element, name) {
 }
 
 var btnContainer = document.getElementById("nav-bar");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("nav");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
@@ -47,6 +47,9 @@ for (var i = 0; i < btns.length; i++) {
 function checkout(){
   $('.icon').click(function(){
     $('*').css("box-sizing", "border-box");
+
+$('html, body').css({"display": "flex","width": "100%","height": "100%","background": "#eeeeee",
+"justify-content": "center","align-items": "center"});
     $('.homePage').addClass('hidden');
     $('#checkout').removeClass('hidden');
   })

@@ -56,9 +56,20 @@ $('html, body').css({"display": "flex","width": "100%","height": "100%","backgro
 }
 
 
+function clickImage(){
+  $('.item').click(function(){
+     $('.homePage').addClass('hidden')
+     $('body').append($(this))
+     $('.item').css({"width":"500px", "height":"500px", "margin-top":"50px"});
+    })
+}
+
+
+
 $(function() {
   filterSelection("all");
   checkout();
+  clickImage()
 });
 
 

@@ -233,7 +233,7 @@ div[class*='column'] {
 }
  
 input[type='text'],
-input[type='password'] {
+input[type='username'] {
   font-size: 16px;
   width: 100%;
   height: 50px;

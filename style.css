@@ -100,7 +100,7 @@ h3{
 }
 
 
-.price{
+h5.price{
 	position:absolute;
 	top:80%;
 	left:50%;
@@ -173,7 +173,7 @@ hr {
 	border: 1px solid lightgrey;
 }
 
-span.price {
+span#price {
 	float: right;
 	color: grey;
 }

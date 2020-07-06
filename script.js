@@ -44,9 +44,18 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
+function checkout(){
+  $('.icon').click(function(){
+    $('*').css("box-sizing", "border-box");
+    $('.homePage').addClass('hidden');
+    $('#checkout').removeClass('hidden');
+  })
+}
+
 
 $(function() {
   filterSelection("all");
+  checkout();
 });
 
 
